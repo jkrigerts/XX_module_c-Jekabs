@@ -1,0 +1,108 @@
+header {
+    height: 50px;
+    padding: 10px 30px;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px rgba(10, 10, 10, 0.1);
+    color: var(--primary-color);
+}
+
+header button {
+    border: none;
+    background-color: transparent;
+    transition: all 0.3s;
+    padding: 10px 20px;
+}
+
+header button:hover {
+    cursor: pointer;
+    transform: translateX(10px);
+}
+
+.desc {
+    font-size: 1.5rem;
+}
+
+.wrapper {
+    width: 100vw;
+    margin-top: 50px;
+    display: grid;
+    height: calc(100vh - 50px);
+    grid-template-columns: min-content 1fr;
+}
+
+aside {
+    width: 200px;
+    background-color: var(--primary-color);
+}
+
+aside > a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-left: 30px;
+    padding-top: 30px;
+    transition: all 0.3s;
+}
+
+aside > a:hover {
+    transform: translateX(10px);
+    color: var(--secondary-color-light-2);
+}
+
+main {
+    padding: 20px;
+    overflow-x: scroll;
+}
+
+th,
+td {
+    border: 1px solid;
+    padding: 7px 10px;
+    border-color: var(--secondary-color);
+}
+
+th {
+    color: var(--secondary-color);
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 5px 10px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+#search-box {
+    margin-bottom: 30px;
+}
+
+input {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 0;
+    color: var(--secondary-color);
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}

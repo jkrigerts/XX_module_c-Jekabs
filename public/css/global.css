@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --primary-color: rgb(93, 1, 150);
+    --primary-color-light-1: rgb(129, 52, 177);
+    --primary-color-light-2: rgb(213, 181, 255);
+    --secondary-color: rgb(0, 96, 207);
+    --secondary-color-light-2: rgb(227, 240, 255);
+}

@@ -75,7 +75,6 @@ class DatabaseSeeder extends Seeder
             "user_id" => "4",
             "deleted" => 1
         ]);
-        Game::factory(20)->create();
 
         GameVersion::factory()->create([
             "game_id" => "1",
